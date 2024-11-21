@@ -1,0 +1,291 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 1.7em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.header {
+  width: 100%;
+  background: #f0fff0;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0px 0px 0px 30px;
+  color: black;
+  transition: 1s ease-in;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link:hover {
+  color: #21b573;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link:focus {
+  color: #21b573;
+}
+.header .btn-success {
+  padding: 10px 30px;
+  margin: 0px 0px 0px 30px;
+  color: white;
+  background: #21b573;
+  border: 1px solid #21b573;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 400;
+  transition: 1s ease-in;
+}
+.header .btn-success:hover,
+.header .btn-success:focus {
+  color: #21b573;
+  background: transparent;
+  border: 1px solid #21b573;
+}
+.banner {
+  width: 100%;
+  padding: 80px 0px;
+}
+.banner-inner {
+  width: 100%;
+  padding: 50px 0px 0px;
+}
+.banner-inner h5 {
+  font-size: 16px;
+  font-weight: normal;
+  color: #fd511a;
+}
+.banner-inner h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.3 em;
+  color: black;
+  margin: 15px 0px;
+}
+.banner-inner h1 span {
+  color: #21b573;
+}
+.banner-inner p {
+  font-size: 16px;
+  line-height: 1.7em;
+  font-weight: normal;
+  color: #000;
+}
+.banner-inner .btn-success {
+  display: inline-block;
+  padding: 10px 30px;
+  margin: 15px 0px 0px 0px;
+  color: white;
+  background: #21b573;
+  border: 1px solid #21b573;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 400;
+  transition: 1s ease-in;
+}
+.banner-inner .btn-success:hover,
+.header .btn-success:focus {
+  color: #21b573;
+  background: transparent;
+  border: 1px solid #21b573;
+}
+.feature {
+  width: 100%;
+  padding: 60px 0px;
+}
+.inner-feature {
+  width: 100%;
+  padding: 60px 40px;
+  background: #f8fffb;
+  border-radius: 10px;
+  text-align: center;
+}
+.inner-feature:hover {
+  background: white;
+  box-shadow: 1px 2px 5px #ccc;
+}
+.inner-feature .icons {
+  width: 66px;
+  height: 85px;
+  margin: 0px 0px 25px;
+}
+.inner-feature h4 {
+  font-size: 24px;
+  line-height: 1.3em;
+  font-weight: 500;
+  color: #413960;
+  margin: 0px;
+}
+.inner-feature p {
+  font-size: 16px;
+  line-height: 1.7em;
+  font-weight: 400;
+  color: #585859;
+  margin: 0px;
+}
+.online-course {
+  width: 100%;
+  padding: 0px 0px 50px;
+}
+.online-course h1 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.3 em;
+  color: black;
+  margin: 15px 0px;
+  text-align: center;
+  padding: 0px 0px 23px 0px;
+}
+.online-course .card {
+  padding: 20px;
+  border: none;
+  box-shadow: 1px 3px 5px #eee;
+  border-radius: 20px;
+}
+.online-course .card .card-body h5 {
+  font-size: 24px;
+  line-height: 1.3em;
+  font-weight: 600;
+  color: #413960;
+}
+.online-course .card .card-body p {
+  font-size: 16px;
+  line-height: 1.7em;
+  font-weight: 400;
+  color: #585859;
+}
+.online-course .card .card-img-top {
+  border-radius: 20px;
+  margin: 0px 0px 10px;
+}
+.online-course .card .card-body .btn-primary {
+  display: inline-block;
+  padding: 10px 30px;
+  margin: 5px 0px 35px 0px;
+  color: white;
+  background: #21b573;
+  border: 1px solid #21b573;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 400;
+  transition: 1s ease-in;
+}
+.online-course .card .card-body .btn-primary:hover,
+.online-course .card .card-body .btn-primary:focus {
+  color: #21b573;
+  background: transparent;
+  border: 1px solid #21b573;
+}
+.online-course .card .card-body .icon {
+  width: 16px;
+  margin: 0px 3px 0px 0px;
+}
+.online-course .card .card-body .info {
+  font-size: 16px;
+  line-height: 1.7em;
+  font-weight: 500;
+  color: #585859;
+}
+.testimonial {
+  width: 100%;
+  padding: 30px 0px 80px 0px;
+}
+.testimonial h1 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.3 em;
+  color: black;
+  margin: 15px 0px;
+  text-align: center;
+  padding: 0px 0px 65px 0px;
+}
+.testimonial .client {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+}
+.testimonial p {
+  font-size: 16px;
+  line-height: 1.7em;
+  font-weight: 400;
+  color: #000000;
+}
+.client-picture {
+  text-align: center;
+}
+.footer{
+  background: #282531;
+}
+.inner-footer {
+  display: flex;
+  padding: 80px 0px;
+  
+}
+.inner-footer .text1 {
+  flex-basis: 40%;
+  color: white;
+  padding: 0px 100px 0px 0px;;
+}
+.inner-footer h4 {
+  font-size: 16px;
+  line-height: 1.7em;
+  font-weight: 500;
+  color: white;
+  padding: 0px 0px 0px 31px
+}
+.inner-footer .list1 {
+  flex-basis: 20%;
+}
+.inner-footer .list2 {
+  flex-basis: 20%;
+}
+.inner-footer .list3 {
+  flex-basis: 20%;
+}
+.list1 ul li {
+  list-style: none;
+}
+.list1 ul li a {
+  display: block;
+  font-size: 16px;
+  line-height: 2em;
+  font-weight: 300;
+  color: white;
+}
+.list2 ul li a {
+  display: block;
+  font-size: 16px;
+  line-height: 2em;
+  font-weight: 300;
+  color: white;
+}
+.list3 ul li a {
+  display: block;
+  font-size: 16px;
+  line-height: 2em;
+  font-weight: 300;
+  color: white;
+}
+.copyright{
+  text-align: center;
+  padding: 0px 0px 10px 0px;
+}
+.copyright p{
+  font-size: 16px;
+  line-height: 1.7em;
+  font-weight: 300;
+  color: #fff;
+}
